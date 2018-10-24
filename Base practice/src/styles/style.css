@@ -1,0 +1,47 @@
+body{
+    width: 1400px;
+    height: 440px;
+    position: relative; 
+}
+.image{
+    width: 428px;
+    height: 350px;
+    margin-top: 45px;
+    
+    margin-bottom: 45px;
+    margin-left: 79px;
+}
+.aboutYou{
+    position: absolute;
+    width: 743px;
+    height: 79px;
+    
+    top: 122px;
+    right: 90px;
+    left: 585px;
+    bottom: 233px;
+    
+    
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    line-height: 31px;
+    color: #424243;
+    font-family: "Arial";
+    text-align: left;
+    
+}
+.aboutYouTitle{
+    width: 707px;
+    height: 36px;
+    background-color: #e7c734;
+    padding-left: 36px;
+    padding-top: 9px;
+    top: 44px;
+    right: 90px;
+    position: absolute;
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 31px;
+    color: #424243;
+    font-family: "Arial";
+}
