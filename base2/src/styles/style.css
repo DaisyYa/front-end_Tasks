@@ -40,6 +40,7 @@
     margin: 370px 116px 0 115px; 
 }
 .read__link{
+    cursor: pointer;
     margin: 429px 131px 0 130px;
     text-transform: uppercase;
     position: absolute;
