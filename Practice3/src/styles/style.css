@@ -1,0 +1,74 @@
+form{
+    width: 427px;
+    height: 770px;
+    box-shadow: 0 0 15px 5px rgba(215,215,215,0.8);
+    padding: 0px;
+    margin: 50px;
+    position: absolute;
+    font-family: 'PT Sans', sans-serif;
+}
+.registration-form__title{
+    position: relative;
+    font-size: 33px;
+    line-height: 20px;
+    color: #262e73;
+    margin: 67px 0 38px 84px;
+}
+input {
+    padding: 14px 0 11px 20px;
+    margin: 12px 0 18px 20px;
+    width: 369px;
+    font-size: 17px;
+    line-height: 11px;
+    color: #b2bccb;
+}
+input[type=radio],
+input.radio {
+    width: auto;
+    margin: 0;
+}
+input[type=checkbox],
+input.checkbox {
+    width: auto;
+    margin: 6px 0 20px 20px;
+}
+label {
+    margin-left:20px;
+    font-size: 14px;
+    line-height: 7px;
+    color: #262e73;
+    cursor: pointer;
+}
+.registration-form__gender-text{
+    font-size: 17px;
+    line-height: 11px;
+    color: #282828;
+}
+.registration-form__gender-wrapper {
+    margin: 10px 0 18px 0;
+}
+.registration-form__checkbox-wrapper{
+    margin: -5px 0 16px 0;
+}    
+.registration-form__checkbox {
+    padding: 2px 15px 10px 8px;
+    margin: 0;
+    position: absolute;
+    font-size: 12px;
+    line-height: 14px;
+    color: #565d69;
+}
+.registration-form__link {
+    text-decoration: none;
+    color: #262e73;
+}
+.registration-form__button{
+    border-radius: 5px;
+    border: 0;
+    font-size: 17px;
+    line-height: 5px;
+    color: #ffffff;
+    background-color: #0bc691;
+    padding: 19px 111px 16px 100px;
+    margin: 0 0 0 20px;
+}

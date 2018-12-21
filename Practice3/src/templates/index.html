@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../styles/style.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
+    </head>
+    <body>
+        <form class="registration-form" action="#" method="post">
+            <h3 class="registration-form__title">Давайте начнем!</h3>
+            <label> 
+                Имя
+                <input type="text" name="first_name" placeholder="Имя" >
+            </label>
+            <label> 
+                Фамилия
+                <input type="text" name="second_name" placeholder="Фамилия" >
+            </label>
+            <label>Ваш пол</label>
+            <p class="registration-form__gender-wrapper">
+            <label class="registration-form__gender-text">
+                    <input type="radio" name="status">
+                    Женский</label>
+            <label class="registration-form__gender-text">
+                    <input type="radio" name="status">
+                    Мужской</label>
+            </p>
+            <label> 
+                Введите электронный адрес
+                <input type="email" name="email" placeholder="primer@domain.com" >
+            </label>
+            <label> 
+                Придумайте пароль
+                <input type="password" name="password" placeholder="Пароль" >
+            </label>
+            <p class="registration-form__checkbox-wrapper">
+             
+                  <input type="checkbox" name="terms" id="checkbox">
+                   <label class="registration-form__checkbox" for="checkbox">
+                     Я принимаю условия <a class="registration-form__link" href="/terms">Пользовательского соглашения</a> 
+                     и даю своё согласие на обработку моих персональных данных 
+                     на условиях, определенных <a class="registration-form__link" href="/terms">Политикой конфиденциальности.</a>
+
+              </label>
+            </p>
+            <input class="registration-form__button" type="submit" value="Зарегистрироваться">
+        </form>
+    </body>
+</html>
