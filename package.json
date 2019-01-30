@@ -1,0 +1,26 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaisyYa/front-end_Tasks.git"
+  },
+  "author": "DaisyYa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaisyYa/front-end_Tasks/issues"
+  },
+  "homepage": "https://github.com/DaisyYa/front-end_Tasks#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0"
+  }
+}
